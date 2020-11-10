@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Sansita+Swashed:wght@500&family=Secular+One&family=Suwannaphum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Lobster&family=Moul&family=Oswald:wght@500&family=Sansita+Swashed:wght@500&family=Suwannaphum&family=Teko:wght@300&display=swap');
+
+/*
+font-family: 'Dancing Script', cursive;
+font-family: 'Sansita Swashed', cursive;
+font-family: 'Secular One', sans-serif;
+font-family: 'Suwannaphum', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Moul', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Sansita Swashed', cursive;
+font-family: 'Teko', sans-serif;
+*/
+{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    text-decoration: none;
+}
+
+.fa-phone{
+    color: green;
+    font-size: 16px!important;
+}
+
+.logo{
+    height: 55px;
+    width: 55px;
+    border-radius: 50px;
+}
+
+/*--------------navigation----------------*/
+ul li a{
+    font-size: 17px;
+    transition: all 0.7s ease-in !important;
+}
+.active{
+ color: darkmagenta !important;
+}ul li a:hover{
+    color: darkred !important;
+}
+/*-----------------content start-------*/
+.section-1{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/chiken.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.content{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    color:#fff;
+    text-transform: capitalize;
+    top: 54%;
+    transform: translate(-50%,-50%);}
+    .content h1,h2,h5{
+        font-family: 'Sansita Swashed', cursive;
+    }
+    .contact-us{
+        margin: 5px;
+        padding: 3px;
+
+    }
+    .contact-us a{
+      
+        display: inline-block;
+        height: 40px;
+        width: 140px;
+
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 5px;
+        transition: all 0.7s ease-in;
+        
+        }
+        .contact-us #about{
+            border-radius: 10px 0px 0px 0px;
+            background-color: #000;
+            color: #fff;
+        }
+        .contact-us #contact-us{
+            border-radius: 0px 0px 10px 0px;
+            background-color: #fff;
+            color: #000;
+        }.contact-us #about:hover{
+            color: #000;
+            background-color: #fff;
+        }
+        .contact-us #contact-us:hover{
+            color: #fff;
+            background-color: #000;
+        }
+        .social-media{
+            margin: 4px;
+            padding: 2px;
+
+        }.social-media a{
+            height: 40px;
+            width: 40px;
+            display: inline-block;
+            border-radius: 50px;
+            font-size: 16px;
+            transition: all 0.7s ease;
+           
+            
+            
+
+        }
+        .social-media a:nth-child(1){
+            color: #fff;
+            border: 2px crimson solid;
+            background-color: darkmagenta;
+            font-weight: 200px;
+            line-height: 2.5;
+        }
+        .social-media a:nth-child(2){
+            color: #fff;
+            border: 2px darkorange solid;
+            background-color: fuchsia;
+            line-height: 2.5;
+        }
+        .social-media a:nth-child(3){
+            color: #fff;
+            border: 2px solid sienna;
+            background-color: darkcyan;
+            line-height: 2.5;
+        }.social-media a:nth-child(1):hover{
+            background-color: #fff;
+            color: royalblue;
+            border:  2px royalblue solid;
+            box-shadow: 2px 2px 3px gray;
+        }
+        .social-media a:nth-child(2):hover{
+            background-color: #fff;
+            color: #CD5C5C;
+            border:  2px#CD5C5C solid;
+            box-shadow: 2px 2px 3px gray;
+        }
+        .social-media a:nth-child(3):hover{
+            background-color: #fff;
+            color: #F4D03F;
+            border:  2px #F4D03F solid;
+            box-shadow: 2px 2px 3px gray;
+        }
+        .bonus-content{
+            position:  absolute;
+            top: 80%;
+            right: 3%;
+            color: white;
+            font-weight: initial;
+        
+        }
+        .bonus-content p{
+           font-family: 'lobster';
+        }
+        /*-----------------content ends-------*/
+        /*-----------------services start-------*/
+        .services{
+            height: 100vh;
+            width: 100%;
+            
+            
+        }
+        .services h3{
+            margin-top: 20px;
+            text-align: center;
+            font-size: 28px;
+            text-transform: uppercase;
+          
+
+        }
+        .services h3:after{
+            content: "";
+            background-color: darkblue;
+            height: 2px;
+            width: 160px;
+            position: absolute;
+            display:block;
+            left: 50%;
+      
+        }
+        .service-description{
+            width: 700px;
+         text-align: center;
+         font-size: 24px;
+            margin-left: 24%;
+            font-family: 'teko';
+            
+            
+        }
+        .services h6{
+            font-size: 35px;
+        }
+        .services-img{
+            width: 230px;
+           
+        }
+       .services .image1{
+            position: absolute;
+            top: 130%;
+            left: 0%;
+          
+
+
+       
+        }
+        .image1 img{
+            height: 200px;
+            width: 200px;  border-radius: 50%;
+           
+        }
+        .image-content{
+            display: flex;
+
+        }
+        .image{
+            height: 400px;
+            width: 400px;
+            
+           
+        }.image img{
+            height: 350px;
+            width: 390px;
+        }.image img:hover .overlay{
+            opacity: 1;
+            visibility: visible;
+        }
+        .overlay{
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            right: 5px;
+            bottom:5px;
+            padding:20px;
+            background:rgba(255, 255,255,0.95);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.5;
+            width: 237px;
+        }
+        #img{
+            width: 564px;
+            height: 350px;
+        }
+        /*---------------------services1-------*/
+        .services1{
+       
+        }
+        .images{
+            border:solid rosybrown 2px;
+            width: 154px;
+            box-shadow: 3px 3px 3px 2px  gray;
+         
+            
+           
+        }
+        .images img{
+            transition: all 0.6s ease-in;
+            height: 140px;
+            width: 152px;
+ 
+
+            
+        }
+        .images:hover img{
+           transform: scale(0.9);
+        }
+        /*-----------------services end-------*/
+        /*-----------------------reservation--------------*/
+        .section-2 h2{
+           text-align: center;
+        }
+        .section-2 h2:after{
+            content: "";
+            background-color: red;
+            height: 2px;
+            width: 160px;
+            position: absolute;
+            display:block;
+            left: 44%;
+        }
+        .submit{
+           
+            position: absolute;
+            margin: 8px 0;
+            padding: 5px;
+            background-color: rgb(78, 78, 161);
+            height: 40px;
+            width: 80px;
+            border: none;
+            display: block;
+            outline: none;
+            border-radius: 10px 0px 10px 0px;
+        }
+    .image3 img{
+        height: 400px;
+    
+    }
+    /*-------------------reservation end------*/
+    /*-------------------------footer start--------------*/
+
+    footer{
+        color: #fff;
+        height: 70vh;
+        width: 100%;
+        background-color: black;
+        text-align: center;
+        padding: 40px 30px;
+    }
+    footer h1{
+        font-family: 'teko', cursive;
+    }
+    footer p{
+        font-weight: bold;
+        padding-top: 7px;
+    }
+    footer img{
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+      
+    }
+    #contact{
+        border:2px #fff solid;
+        width:200px;
+        padding: 10px;
+        border-radius: 20px;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: all 0.8s ease-in;
+        margin: 30px 0;
+        color: #fff;
+    }
+    #contact:hover{
+        background-color: #fff;
+        color: #000;
+        border: 4px solid orange;
+
+    }
+    #byweb{
+        text-decoration: none;
+        color: #fff;
+        right: 5%;
+    }
+   /*----------------about us page--------*/
+.about-section{
+    height: 80vh;
+    width: 100%;
+    background-color: gray;
+}
+.about-text{
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+.about-text:after{
+    content: "";
+    background-color: red;
+    height: 2px;
+    width: 160px;
+    position: absolute;
+    display:block;
+    left: 44%;
+}
+.about-content{
+    color: #fff;
+    padding: 40px;
+    text-align: justify;
+    font-family: 'Sansita Swashed';
+    font-size: 19px;
+}
+
+   /*----------------about us page ends-------*/
+
+
+   /*-------------------contact us ---*/
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    background-image: url(../images/hotel1.jpeg);
+    
+    padding: 10px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.contact-text{
+    text-align: center;
+    margin-top: 20px; 
+    text-transform: uppercase;
+    font-family: 'Sansita Swashed';
+}
+.contact-text:after{
+    content: "";
+    background-color: blueviolet;
+    height: 2px;
+    width: 160px;
+    position: absolute;
+    display:block;
+    left: 44%;
+}
+.contact-form{
+
+    margin: 60px 10px !important;
+  
+    height: 500px;
+    
+}
+.contact-info p{
+    color: #fff;
+
+}
+.contact-info a{
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.92;
+    color: green;
+    font-size: 23px;
+}
+.con-icon{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    color: #000;
+    
+    display: block;
+    padding: 12px;
+    border-radius: 50px;
+}
+    /*-------------------contact us page end--------*/
+    /*----------------------media query started----*/
+
+
+    @media screen and (max-width:1000px){
+        .nav-item a{
+            font-size: 16px!important;
+        }
+        .content h2{
+            font-size: 25px;
+        }.content h5{
+            font-size: 16px;
+        }
+        .image img{
+            width: 300px;
+        }
+        .service-description{
+            width: 700px;
+            margin-left: 4px;
+        }
+        .image{
+            width: 230px;
+        }
+        .image img{
+            width: 230px;
+        }
+       
+    }
+    @media screen and (max-width:740px){
+   
+    .image img{
+        width: 590px;
+    }
+        .service-description{
+            margin-left: 1px;
+            width: 500px;
+        }
+        .images{
+            width: 400px;
+            height: 490px;
+
+        }
+        .images img{
+            width: 400px;
+            height: 490px;
+        }.service-description h6{
+            font-size: 23px;
+        } .content h2{
+            font-size: 21px;
+        }.content h5{
+            font-size: 14px;
+        }
+        .contact-us{
+            display: inline-flex;
+        }
+    }
+    @media screen and (max-width:620px){
+        .image img{
+            width: 550px;
+        }  @media screen and (max-width:620px){
+            .image img{
+                width: 480px;
+            }
+            .service-description{
+                width: 440px;
+            }
+            .images{
+                width: 360px;
+                height: 290px;
+                margin: 4px 0;
+            }
+            .images img{
+                width: 360px;
+                height: 290px;
+            }
+        }
+        @media screen and (max-width:513px){
+            .image img{
+                width: 450px;
+            }
+           
+        }
+        @media screen and (max-width:486px){
+            .image img{
+                width: 420px;
+            }
+            .service-description{
+                width: 400px;
+            }
+        }  @media screen and (max-width:455px){
+            .image img{
+                width: 400px;
+            }
+            .service-description{
+                width:390px;
+            }
+        }  }  @media screen and (max-width:440px){
+            .image img{
+                width: 380px;
+            }
+            .service-description{
+                width:370px;
+            }
+            .images{
+                width: 330px;
+            }
+            .images img{
+                width: 330px;
+            }
+        }  @media screen and (max-width:400px){
+            .image img{
+                width: 340px;
+            }
+            .service-description{
+                width:330px;
+            }
+            .images{
+                width: 310px;
+            }
+            .images img{
+                width: 310px;
+            }
+            .image3 img{
+                width: 310px;
+            }
+        }
+        @media screen and (max-width:392px){
+            .images{
+                width: 240px;
+                height: 220px;
+            }  .images img{
+                width: 240px;
+                height: 220px;
+            }
+            .image img{
+                width: 290px;
+            }
+        }   @media screen and (max-width:365px){
+            .service-description{
+                width: 240px;
+            }
+        }
+        @media screen and (max-width:345px){
+            .service-description{
+                width: 250px;
+            }
+            .image img{
+                width: 260px;
+            }
+            .images img{
+                width: 190px;
+                height: 170px;
+            }
+            .images{
+                width: 190px;
+                height: 170px;
+            }
+            .image3 img{
+                width: 210px;
+            }
+            .section-2 h2:after  {
+           
+                left: 23%;
+            }
+            .services h3:after{
+                left: 23%;
+            }    .contact-us a{
+                width: 110px;
+                font-size: 14px;
+            }
+        }
+        /*------------about us----*/
+        @media screen and (max-width:985px){
+        .about-section{
+            height: 90vh;
+        }
+    }
+    @media screen and (max-width:765px){
+        .about-section{
+            height: 140vh;
+        }
+        .about-text:after{
+            left: 40%;
+        }
+        .about-image img{
+            width: 400px;
+            margin-left: 10%;
+        }
+    }   @media screen and (max-width:500px){
+      .about-content p{
+          font-size: 17px;
+      }
+    }
+    @media screen and (max-width:470px){
+        .about-image img{
+            width: 330px;
+        }.about-text:after{
+            left: 30%;
+        } .about-content p{
+            font-size: 14px;
+        }
+    }@media screen and (max-width:390px){
+        .about-image img{
+            width:260px ;}
+    }@media screen and (max-width:330px){
+        .about-image img{
+            width:230px ;}
+            .about-section{
+                height: 160vh;
+            }
+    }@media screen and (max-width:280px){
+        .about-image img{
+            width:210px ;}
+            .about-content p{
+                font-size: 12px;
+            }  
+    }
+  /*-----------------contact us section------------------*/
+  @media screen and (max-width:990px){
+      .contact{
+          height: 140vh;
+      } .contact-text:after{
+        left: 42%;
+    }
+} @media screen and (max-width:800px){
+    .contact-text:after{
+        left: 38%;
+    }
+}@media screen and (max-width:550px){
+    .contact-text:after{
+        left: 32%;
+    }
+}@media screen and (max-width:275px){
+    .contact-text:after{
+        left: 17%;
+    }  .contact{
+        height: 160vh;
+    } 
+}
+
+@media screen and (max-width:345px){
+   .content h2{
+       font-size: 17px;
+   }
+   .contact-text:after{
+       left: 30%;
+   }
+}@media screen and (max-width:235px){
+    .contact-text:after{
+        left: 14%;
+    }  .contact{
+        height: 170vh;
+    } 
+}@media screen and (max-width:320px){
+    .contact-text:after{
+        left: 14%;
+    }  .contact{
+        height: 170vh;
+    } 
+}
