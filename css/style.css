@@ -666,15 +666,15 @@ ul li a{
     }
 } @media screen and (max-width:800px){
     .contact-text:after{
-        left: 38%;
+        left: 28%;
     }
 }@media screen and (max-width:550px){
     .contact-text:after{
-        left: 32%;
+        left: 27%;
     }
 }@media screen and (max-width:275px){
     .contact-text:after{
-        left: 17%;
+        left: 11%;
     }  .contact{
         height: 160vh;
     } 
@@ -685,7 +685,7 @@ ul li a{
        font-size: 17px;
    }
    .contact-text:after{
-       left: 30%;
+       left: 25%;
    }
 }@media screen and (max-width:235px){
     .contact-text:after{
